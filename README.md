@@ -8,7 +8,7 @@ The web app must simulate a store site where the user is able to buy items.
 
 + Dark-light mode
 + Add items to cart
-+ Remove items to cart
++ Remove items from cart
 + Sign in
 + Log in
 + Use localStorage to store the user and purchase mockups
@@ -22,9 +22,9 @@ The web app must simulate a store site where the user is able to buy items.
 
 *To decide what will be a state, these are the guidelines to decide:*
 
-*The data changes over time*
-*The data is not passed via props*
-*The data is not computed based on existing state or props*
+1. *The data changes over time*
+2. *The data is not passed via props*
+3. *The data is not computed based on existing state or props*
 
 ## Conditionals for each function
 
